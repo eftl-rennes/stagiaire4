@@ -25,13 +25,13 @@ public class CalculPrixBillet {
 	 Integer varPrixUnitaire = calculPrixUnitaire.generer();
 	 switch(classe) {
 	 
-	 case "eco":
+	case "eco":
 		 return varPrixUnitaire;
 	case "premiere":
 		 return varPrixUnitaire * 2;
 	case "business":
 		 return varPrixUnitaire *2 + 300;
-	 default:
+	default:
 		 return varPrixUnitaire;
 	 }
 	 
